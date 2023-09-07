@@ -1,0 +1,20 @@
+{
+  "compilerOptions": {
+    "target": "ES6",
+    "module": "CommonJS",
+    "moduleResolution": "node",
+    "baseUrl": "src",
+    "rootDir": "src",
+    "outDir": "dist",
+    "paths": {
+      "@/*": [
+        "*"
+      ]
+    },
+    "esModuleInterop": true,
+    "strict": true
+  },
+  "exclude": [
+    "node_modules"
+  ]
+}
